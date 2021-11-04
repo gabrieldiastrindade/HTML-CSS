@@ -1,0 +1,27 @@
+/*
+    id == #
+    class == .
+*/
+
+body {
+    background-color: burlywood;
+    font-family: Arial;
+}
+h1 {
+    color: dimgray;
+}
+h2 {
+    color: gold;
+}
+.principal {
+    text-align: center;
+}
+.basico {
+    color: green;
+}
+.intermdediario {
+    color: gold;
+}
+.avançado {
+    color: red;
+}

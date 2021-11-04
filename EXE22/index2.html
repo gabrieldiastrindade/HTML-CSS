@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font: bold 25px Arial;
+            text-align: center;
+            background-color: dimgray;
+            margin: 0;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 5px 5px 5px black;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            padding: 5px;
+            margin: 0px;
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(133, 131, 131);
+        }
+        nav {
+            background-color: rgb(61, 61, 61);
+            padding: 3px;
+            box-shadow:  5px 3px 7px 1px black;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        .bola {
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section class="assuntos">
+
+        </section>
+        <section class="noticias">
+            <article>
+                <h2>Freddie Mercury</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vero corrupti illum error odio sapiente sed quasi beatae, natus consectetur. Consequatur excepturi delectus velit, nihil sapiente voluptate id adipisci corrupti!</p>
+                
+                <aside>
+                    <p>Artigo escrito por GABRIEL</p>
+                </aside>
+            </article>
+            <article>
+                <aside>
+
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;GABRIEL</p>
+    </footer>
+    <div class="bola"></div>
+</body>
+</html>
